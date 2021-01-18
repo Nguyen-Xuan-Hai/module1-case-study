@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    #wrapper{
+        border: 1px solid black;
+        width: 500px;
+        height: 600px;
+    }
+    .hide {
+        display: none;
+    }
+    #startBtn {
+        border: none;
+        padding: 10px 30px;
+        border-radius: 3px;
+        display: block;
+        margin: 100px auto;
+    }
+</style>
+<body>
+<div id="wrapper">
+    <div id="welcome" class="hides">
+        <button id="startBtn">Start</button>
+    </div>
+
+        <div id="questionScreen" class="hide">
+            <div id="question">Question</div>
+        <div id="answer">
+            <div id="answer_1">Cau tra loi 1</div>
+            <div id="answer_2">Cau tra loi 2</div>
+            <div id="answer_3">Cau tra loi 3</div>
+            <div id="answer_4">Cau tra loi 4</div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="ui.js"></script>
+<script src="sound.js"></script>
+<script src="script.js"></script>
+</html>
